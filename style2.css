@@ -1,0 +1,134 @@
+
+
+html {
+
+background-color: white;
+height: 1200px;
+width: 1200px;
+margin-top: 30px;
+background-color: lightgrey
+
+
+}
+
+body {
+
+/* background-color: white; */
+
+}
+
+p {
+
+font-family: arial;
+letter-spacing: 1px;
+word-spacing: 1.5px;
+line-height: 30px;
+color: blue;
+font-size: 14px;
+margin-left: 125px;
+padding-top: 80px;
+padding-left: 10px;
+padding-right: 60px;
+text-align: left;
+/* border-left: solid blue 1px; */
+
+}
+
+.title {
+
+width:40%;
+margin-left: 30%;
+margin-right: 30%;
+
+}
+
+.tabs {
+
+position: fixed;
+top: 0px;
+left: 10px;
+
+}
+
+.tab {
+
+height: 150px;
+align-items: center;
+margin: -2px;
+padding: 0px;
+}
+
+.tab:hover {
+
+  background-color: lightsteelblue;
+
+}
+
+
+.tab1 {
+
+display: none;
+
+}
+
+.stylealltabs {
+
+  background-size: 100px;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: none;
+
+}
+
+#tab2 {
+
+background-image: url("blueAbout.jpg");
+
+}
+
+#tab3 {
+
+background-image: url("blueProjects.jpg");
+
+}
+
+#tab4 {
+
+background-image: url("blueMerch.jpg");
+
+}
+
+#tab5 {
+
+background-image: url("blueEvents.jpg");
+
+}
+
+#tab6 {
+
+background-image: url("blueDonate.jpg");
+
+}
+
+.folders {
+
+  border: solid 1px blue;
+  margin-left: 200px;
+  margin-top: 20px;
+  box-shadow: lightgrey -12px 1px 30px;
+  overflow: scroll;
+
+}
+
+.homepicture {
+
+  margin-left: 200px;
+  margin-top: 20px;
+
+}
+
+.tabtitle {
+
+height: 100px;
+margin: 30px;
+}

@@ -1,0 +1,181 @@
+
+
+html {
+
+background-color: white;
+
+margin-top: 30px;
+/* border: solid 1px black; */
+box-shadow: lightgrey 2px 2px 100px;
+
+
+
+}
+
+body {
+
+  background-image: ;
+  background-size: cover;
+  background-image: linear-gradient(to bottom, white 30%, transparent), url('gridscan.jpeg');
+  padding-bottom: 100px;
+}
+
+p {
+
+font-family: arial;
+letter-spacing: 1px;
+word-spacing: 1.5px;
+line-height: 30px;
+color: blue;
+font-size: 14px;
+margin-left: 125px;
+padding-top: 80px;
+padding-left: 10px;
+padding-right: 60px;
+padding-bottom: 50px;
+text-align: left;
+/* border-left: solid blue 1px; */
+
+}
+
+.title {
+
+width:40%;
+margin-left: 30%;
+margin-right: 30%;
+
+}
+
+.tabs {
+
+margin-left: 27%;
+margin-right: 20%;
+
+}
+
+.tab {
+
+height: 150px;
+align-items: center;
+margin: -2px;
+padding: 0px;
+}
+
+.tab:hover {
+
+  background-color: blue;
+
+}
+
+
+.tab1 {
+
+display: none;
+
+}
+
+.stylealltabs {
+
+  background-size: 100px;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: none;
+  overflow: scroll;
+
+}
+
+#tab2 {
+
+background-image: url("blueAbout.jpg");
+
+}
+
+#tab3 {
+
+background-image: url("blueProjects.jpg");
+
+}
+
+#tab4 {
+
+  background-image: url("blueEvents.jpg");
+
+}
+
+#tab5 {
+
+  background-image: url("blueMerch.jpg");
+
+}
+
+#tab6 {
+
+background-image: url("blueDonate.jpg");
+
+}
+
+.folders {
+
+  border: solid 1px blue;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  box-shadow: lightgrey -12px 1px 30px;
+  overflow: scroll;
+}
+
+.homepicture {
+
+  margin-left: 18%;
+  margin-right: 12%;
+  margin-top: 20px;
+
+}
+
+.tabtitle {
+
+height: 100px;
+margin: 30px;
+}
+
+
+.store_img {
+
+width: 200px;
+box-shadow: black 2px 2px 50px;
+/* filter: url(https://grainy-gradients.vercel.app/noise.svg)'' */
+display: inline-block;
+margin-left: 40px;
+float: left;
+
+
+
+}
+
+.store {
+
+margin-left: 200px;
+margin-right: 50px;
+margin-top: 50px;
+margin-bottom: 50px;
+
+
+
+}
+
+
+iframe {
+
+  height: 300px !important;
+  overflow: scroll;
+  margin: none;
+  padding: none;
+  float: left;
+
+}
+
+.store_item {
+  float: left;
+  display: inline-block;
+
+}
