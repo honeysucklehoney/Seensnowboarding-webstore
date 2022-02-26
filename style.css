@@ -17,7 +17,7 @@ body {
 
   background-image: ;
   background-size: cover;
-  background-image: url('gridscan.jpeg') ;
+  background-image: url('gridscan.png') ;
   padding-bottom: 100px;
   margin: 0px;
 }
@@ -30,7 +30,7 @@ word-spacing: 1.5px;
 line-height: 30px;
 color: blue;
 font-size: 14px;
-margin-left: 125px;
+margin-left: 275px;
 padding-top: 80px;
 padding-left: 10px;
 padding-right: 60px;
@@ -50,17 +50,23 @@ margin-right: 30%;
 
 .tabs {
 
-margin-left: 27%;
-margin-right: 20%;
+position: absolute;
+left: 52px;
+top:220px;
+/* margin-right: 20%; */
+/* transform: rotate(-90deg); */
 
 }
 
 .tab {
 
-height: 150px;
+height: 125px;
 align-items: center;
 margin: -2px;
 padding: 0px;
+/* background-color: white; */
+
+
 }
 
 .tab:hover {
@@ -89,12 +95,14 @@ display: block;
 #tab2 {
 
 background-image: url("blueAbout.jpg");
+background-size: 250px, 300px;
 background-color: white;
 
 }
 
 #tab3 {
-  background-image: url("blueProjects.jpg");
+  background-image: url("blueProjects.png");
+  background-size: 250px, 300px;
 
 }
 
@@ -102,28 +110,34 @@ background-color: white;
 
 
   background-image: url("blueEvents.jpg");
+  background-size: 250px, 300px;
+
 
 }
 
 #tab5 {
 
   background-image: url("blueMerch.jpg");
+  background-size: 250px, 300px;
 
 }
 
 #tab6 {
 
 background-image: url("blueDonate.jpg");
+background-size: 250px, 300px;
+
 
 }
 
 .folders {
 
   border: solid 1px blue;
-  margin-left: 50px;
-  margin-right: 50px;
   margin-top: 20px;
-  box-shadow: lightgrey -12px 1px 30px;
+  margin-left: 50px;
+  margin-right: 100px;
+  /* margin-top: 20px; */
+  /* box-shadow: lightgrey -10px 10px 90px; */
   overflow: scroll;
 }
 
@@ -186,8 +200,10 @@ iframe {
 
 .subcat{
 
-font-size: 14px;
+font-size: 16px;
 font-style: oblique;
+margin-left: 290px;
+margin-top: 3px;
 
 }
 
