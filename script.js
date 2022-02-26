@@ -5,6 +5,7 @@ var projecttab = document.getElementById('tab3');
 var eventstab = document.getElementById('tab4');
 var merchtab = document.getElementById('tab5');
 var donatetab = document.getElementById('tab6');
+var home = document.getElementById('tab1');
 
 
 
@@ -16,6 +17,8 @@ function openAbout()
   var eventstab = document.getElementById('tab4');
   var merchtab = document.getElementById('tab5');
   var donatetab = document.getElementById('tab6');
+  var home = document.getElementById('tab1');
+  home.style.display="none";
 
 
   abouttab.style.display ="block";
@@ -34,9 +37,11 @@ function openProjects()
   var eventstab = document.getElementById('tab4');
   var merchtab = document.getElementById('tab5');
   var donatetab = document.getElementById('tab6');
+  var home = document.getElementById('tab1');
 
+  home.style.display="none";
   abouttab.style.display ="none";
-  projecttab.style.display ="block";
+  projecttab.style.display ="flex";
   eventstab.style.display ="none";
   merchtab.style.display ="none";
   donatetab.style.display ="none";
@@ -50,10 +55,12 @@ function openEvents()
   var eventstab = document.getElementById('tab4');
   var merchtab = document.getElementById('tab5');
   var donatetab = document.getElementById('tab6');
+  var home = document.getElementById('tab1');
 
+  home.style.display="none";
   abouttab.style.display ="none";
   projecttab.style.display ="none";
-  eventstab.style.display ="block";
+  eventstab.style.display ="flex";
   merchtab.style.display ="none";
   donatetab.style.display ="none";
 }
@@ -66,7 +73,9 @@ function openMerch()
   var eventstab = document.getElementById('tab4');
   var merchtab = document.getElementById('tab5');
   var donatetab = document.getElementById('tab6');
+  var home = document.getElementById('tab1');
 
+  home.style.display="none";
   abouttab.style.display ="none";
   projecttab.style.display ="none";
   eventstab.style.display ="none";
@@ -82,7 +91,9 @@ function openDonate()
   var eventstab = document.getElementById('tab4');
   var merchtab = document.getElementById('tab5');
   var donatetab = document.getElementById('tab6');
+  var home = document.getElementById('tab1');
 
+  home.style.display="none";
   abouttab.style.display ="none";
   projecttab.style.display ="none";
   eventstab.style.display ="none";

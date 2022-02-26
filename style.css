@@ -3,10 +3,11 @@
 html {
 
 background-color: white;
-
-margin-top: 30px;
+width: 1500px;
+height: 1200px;
+margin: none;
+padding: none;
 /* border: solid 1px black; */
-box-shadow: lightgrey 2px 2px 100px;
 
 
 
@@ -16,8 +17,9 @@ body {
 
   background-image: ;
   background-size: cover;
-  background-image: linear-gradient(to bottom, white 30%, transparent), url('gridscan.jpeg');
+  background-image: url('gridscan.jpeg') ;
   padding-bottom: 100px;
+  margin: 0px;
 }
 
 p {
@@ -68,9 +70,9 @@ padding: 0px;
 }
 
 
-.tab1 {
+#tab1 {
 
-display: none;
+display: block;
 
 }
 
@@ -92,12 +94,12 @@ background-color: white;
 }
 
 #tab3 {
-
-background-image: url("blueProjects.jpg");
+  background-image: url("blueProjects.jpg");
 
 }
 
 #tab4 {
+
 
   background-image: url("blueEvents.jpg");
 
@@ -127,9 +129,10 @@ background-image: url("blueDonate.jpg");
 
 .homepicture {
 
-  margin-left: 18%;
-  margin-right: 12%;
+  margin-left: 26%;
+  margin-right: 25%;
   margin-top: 20px;
+  width: 45%;
 
 }
 
@@ -179,4 +182,54 @@ iframe {
   float: left;
   display: inline-block;
 
+}
+
+.subcat{
+
+font-size: 14px;
+font-style: oblique;
+
+}
+
+
+.row {
+
+flex: 25%;
+
+}
+
+.tabsubtitle {
+
+
+font-size: 18px;
+margin-left: 0px;
+padding-left: 0px;
+text-decoration: underline;
+margin-bottom: 10px !important;
+padding-bottom: 0px !important;
+}
+
+mark {
+background-color: white;
+color: blue;
+
+
+}
+
+.eventimg {
+
+width: 500px;
+
+}
+
+a:hover {
+
+background-color: blue;
+font-style: italic;
+color: white;
+}
+
+a {
+text-decoration: none;
+color:blue;
 }
