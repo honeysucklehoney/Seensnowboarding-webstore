@@ -5,8 +5,8 @@ html {
 background-color: white;
 width: 1500px;
 height: 1100px;
-margin: none;
-padding: none;
+margin: 0px;
+padding: 0px;
 /* border: solid 1px black; */
 
 
@@ -15,9 +15,8 @@ padding: none;
 
 body {
 
-  background-image: ;
   background-size: cover;
-  background-image: url('gridscan.png') ;
+  background-image: url('bgseensnowboarding.jpg') ;
   padding-bottom: 250px;
   margin: 0px;
 }
@@ -50,9 +49,7 @@ margin-right: 30%;
 
 .tabs {
 
-position: absolute;
-left: 52px;
-top:220px;
+margin-left:25%;
 /* margin-right: 20%; */
 /* transform: rotate(-90deg); */
 
@@ -60,19 +57,16 @@ top:220px;
 
 .tab {
 
-height: 125px;
+height: 175px;
 align-items: center;
 margin: -2px;
 padding: 0px;
-/* background-color: white; */
 
 
 }
 
 .tab:hover {
-
-  background-color: blue;
-
+opacity: 0%;
 }
 
 
@@ -95,14 +89,14 @@ display: block;
 #tab2 {
 
 background-image: url("blueAbout.png");
-background-size: 250px, 300px;
+background-size: 150px, 150px;
 /* background-color: white; */
 
 }
 
 #tab3 {
   background-image: url("blueProjects.png");
-  background-size: 250px, 300px;
+  background-size: 150px, 150px;
 
 }
 
@@ -110,7 +104,7 @@ background-size: 250px, 300px;
 
 
   background-image: url("blueEvents.jpg");
-  background-size: 250px, 300px;
+  background-size: 150px, 150px;
 
 
 }
@@ -118,7 +112,7 @@ background-size: 250px, 300px;
 #tab5 {
 
   background-image: url("blueMerch.jpg");
-  background-size: 250px, 300px;
+  background-size: 150px, 150px;
   padding-left: 200px;
   padding-top: 50px;
 
@@ -127,7 +121,7 @@ background-size: 250px, 300px;
 #tab6 {
 
 background-image: url("bluemutualaid.png");
-background-size: 250px, 300px;
+background-size: 150px, 150px;
 
 
 }
