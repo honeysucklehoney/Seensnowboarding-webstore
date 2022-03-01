@@ -8,6 +8,11 @@ var donatetab = document.getElementById('tab6');
 var home = document.getElementById('tab1');
 
 
+function popup() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+
 
 function openAbout()
 
