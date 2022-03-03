@@ -13,6 +13,40 @@ function popup() {
   popup.classList.toggle("show");
 }
 
+function popup2() {
+  var popup = document.getElementById("myPopup2");
+  popup.classList.toggle("show");
+}
+
+function popup3() {
+  var popup = document.getElementById("myPopup3");
+  popup.classList.toggle("show");
+}
+
+function popup4() {
+  var popup = document.getElementById("myPopup4");
+  popup.classList.toggle("show");
+}
+
+function popup5() {
+  var popup = document.getElementById("myPopup5");
+  popup.classList.toggle("show");
+}
+
+function popup6() {
+  var popup = document.getElementById("myPopup6");
+  popup.classList.toggle("show");
+}
+
+function popup7() {
+  var popup = document.getElementById("myPopup7");
+  popup.classList.toggle("show");
+}
+
+function popup8() {
+  var popup = document.getElementById("myPopup8");
+  popup.classList.toggle("show");
+}
 
 function openAbout()
 
@@ -103,5 +137,5 @@ function openDonate()
   projecttab.style.display ="none";
   eventstab.style.display ="none";
   merchtab.style.display ="none";
-  donatetab.style.display ="block";
+  donatetab.style.display ="flex";
 }

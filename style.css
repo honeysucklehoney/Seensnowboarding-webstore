@@ -13,11 +13,16 @@ padding: 0px;
 
 }
 
+
+p {
+
+  font-family: arial;
+  color: blue;
+}
 body {
 
   background-size: cover;
   background-image: url('bgseensnowboarding.jpg') ;
-  padding-bottom: 250px;
   margin: 0px;
 }
 
@@ -82,7 +87,7 @@ display: block;
 
   background-size: 100px;
   background-repeat: no-repeat;
-  height: 700px;
+  height: 1000px;
   display: none;
   overflow: scroll;
 
@@ -134,6 +139,7 @@ background-size: 150px, 150px;
   margin-top: 20px;
   margin: 5%;
   width: 90%;
+  height: 1000px;
   /* margin-top: 20px; */
   /* box-shadow: lightgrey -10px 10px 90px; */
   overflow: scroll;
@@ -141,10 +147,10 @@ background-size: 150px, 150px;
 
 .homepicture {
 
-  margin-left: 35%;
-  margin-right: 35%;
+  margin-left: 25%;
+  margin-right: 25%;
   margin-top: 30px;
-  width: 30%;
+  width: 50%;
 
 }
 
@@ -189,7 +195,7 @@ margin-bottom: 50px;
 .subcat{
 
 font-size: 22px;
-padding-left: 20px;
+padding-left: 10px;
 margin-right: 0px;
 margin-top: 100px;
 color: blue;
@@ -201,6 +207,7 @@ color: blue;
 flex: 50%;
 
 }
+
 
 .tabsubtitle {
 
@@ -250,8 +257,9 @@ padding-bottom: 20px;
 
 .projects {
 
-  width: 75%;
-  margin-left: 20px;
+  width: 90%;
+  margin-left: 15px;
+  margin-top: 20px;
   padding: 10px;
 
 }
@@ -283,11 +291,9 @@ margin-left: 0px !important;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  margin-top: 150px;
-  /* margin-left: %; */
-  text-align: center;
-  font-size: 30px;
-  transform: rotate(-45deg);
+  margin-top: 0px;
+  margin-left: 275px;
+
 
 
 }
@@ -312,17 +318,26 @@ margin-left: 0px !important;
 
 .posters {
 
-width: 80%;
-margin-left: -30%;
-margin-top: 100px;
+width: 50%;
+margin-top: -125px;
+margin-left: 10%;
+margin-right: 10%;
 box-shadow: black 2px 2px 50px;
 position: absolute;
-transform: rotate(45deg);
-
 }
 
 .projecttabextrastyle {
 
 margin-left: 15%;
 
+}
+
+
+.signiature {
+
+text-align: left;
+font-family: pypurus;
+margin-left: 5%;
+padding-bottom: 10px;
+margin-top: 0px;
 }
