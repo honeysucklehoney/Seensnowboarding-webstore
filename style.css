@@ -121,6 +121,7 @@ background-size: 150px, 150px;
 
   background-image: url("blueMerch.jpg");
   background-size: 150px, 150px;
+  background-repeat: no-repeat;
   padding-left: 200px;
   padding-top: 50px;
 
@@ -152,6 +153,12 @@ background-size: 150px, 150px;
   margin-right: 25%;
   margin-top: 30px;
   width: 50%;
+
+}
+
+.carousel-button-arrow {
+
+display: none !important;
 
 }
 
@@ -303,8 +310,8 @@ margin-left: 0px !important;
   font-style: italic;
   color: white;
 
-
 }
+
 
 /* Toggle this class - hide and show the popup */
 .popup .show {
@@ -326,13 +333,16 @@ margin-left: 0px !important;
 
 .posters {
 
-width: 50%;
-margin-top: -125px;
-margin-left: 10%;
-margin-right: 10%;
-box-shadow: black 10px 2px 2000px;
+width: 80%;
+box-shadow: black 10px 2px 200px;
 position: absolute;
+top:250px;
+left: 10%;
+margin: 0px;
+border: solid;
+border-color: blue;
 }
+
 
 .projecttabextrastyle {
 
