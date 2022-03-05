@@ -367,3 +367,10 @@ color: blue;
 text-decoration: none;
 
 }
+
+sup {
+
+text-align: left !important;
+font-size: 12px;
+
+}
