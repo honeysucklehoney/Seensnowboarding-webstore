@@ -7,6 +7,10 @@ var merchtab = document.getElementById('tab5');
 var donatetab = document.getElementById('tab6');
 var home = document.getElementById('tab1');
 
+// function popup05() {
+//   var popup = document.getElementById("myPopup0.5");
+//   popup.classList.toggle("show");
+// }
 
 function popup() {
   var popup = document.getElementById("myPopup");
