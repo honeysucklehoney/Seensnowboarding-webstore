@@ -54,7 +54,7 @@ margin-right: 30%;
 
 .tabs {
 
-margin-left:25%;
+margin-left:23%;
 /* margin-right: 20%; */
 /* transform: rotate(-90deg); */
 
@@ -383,7 +383,11 @@ font-size: 12px;
   height: 125px;
   margin-bottom: -50px;
 
+  }
 
+  p {
+
+text-align: left;
 
   }
 
